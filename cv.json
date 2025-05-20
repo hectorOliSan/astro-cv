@@ -62,7 +62,7 @@
       "area": "Técnico Superior en Desarrollo de Aplicaciones Web",
       "startDate": "2022-09-12",
       "endDate": "2023-06-16",
-      "score": "8.6"
+      "score": "9.4"
     },
     {
       "institution": "IES El Rincón",
@@ -70,7 +70,7 @@
       "area": "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma",
       "startDate": "2020-10-26",
       "endDate": "2022-06-17",
-      "score": "8.6"
+      "score": "8.5"
     }
   ],
   "projects": [
@@ -79,20 +79,16 @@
       "isActive": true,
       "github": true,
       "description": "Simple QR code scanner built with Ionic",
-      "highlights": ["Angular", "Ionic"],
+      "highlights": ["angular", "ionic"],
       "url": "https://github.com/hectorOliSan/qr-scanner"
     },
     {
       "name": "Datathon 5G",
       "isActive": false,
       "github": true,
-      "description": "Organizado por IAT Marino-Marítima y la SPEGC",
-      "highlights": [
-        "SITGRAN",
-        "Datathon",
-        "AI"
-      ],
-      "url": "https://github.com/hectorOliSan/Datathon_5G"
+      "description": "Datathon 5g beach challenge - beyond prediction",
+      "highlights": ["javascript", "python", "fastapi"],
+      "url": "https://github.com/hectorOliSan/datathon-5g"
     }
   ],
   "skills": [
