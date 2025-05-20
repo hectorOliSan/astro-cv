@@ -21,9 +21,9 @@ Minimalist curriculum vitae made with
 1. Clone the repository
 
 ```sh
-git clone https://github.com/hectorolisan/astro-curriculum-vitae
+git clone https://github.com/hectorolisan/astro-cv
 
-cd astro-curriculum-vitae
+cd astro-cv
 ```
 
 2. Install dependencies (recommended with Bun)
