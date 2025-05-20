@@ -1,0 +1,41 @@
+---
+import Section from "@/components/Section.astro";
+
+import { skills } from "@cv";
+---
+
+<Section title="Habilidades">
+  <div class="overflow-hidden whitespace-nowrap">
+    <ul
+      class="w-max flex gap-4 hover:cursor-pointer animate-[marquee_20s_linear_infinite] print:w-full print:animate-none print:flex-wrap"
+    >
+      {
+        skills.map(({ name }) => (
+          <li class="flex items-center gap-1 px-2 py-1 rounded-md text-gray-800 bg-gray-200 text-sm">
+            <i class={`ti ti-brand-${name.toLowerCase()}`} />
+            <span>{name}</span>
+          </li>
+        ))
+      }
+      {
+        skills.map(({ name }) => (
+          <li class="flex print:hidden items-center gap-1 px-2 py-1 rounded-md text-gray-800 bg-gray-200 text-sm">
+            <i class={`ti ti-brand-${name.toLowerCase()}`} />
+            <span>{name}</span>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Section>
+
+<style>
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+</style>
