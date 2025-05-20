@@ -1,0 +1,37 @@
+---
+import Section from "@/components/Section.astro";
+
+import { basics } from "@cv";
+
+const { profiles, email } = basics;
+---
+
+<Section title="Contacto">
+  <main class="flex flex-row flex-wrap text-sm gap-4">
+    <a
+      href={`mailto:${email}`}
+      title={`Enviar email a ${email}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="flex items-center gap-1 px-2 py-1 border border-gray-200 rounded-md transition-colors duration-300 hover:text-gray-800 hover:bg-gray-200"
+    >
+      <i class="ti ti-mail"></i>
+      {email}
+    </a>
+
+    {
+      profiles.map(({ network, url, username }) => (
+        <a
+          href={url}
+          title={`Perfil de ${network}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center gap-1 px-2 py-1 rounded-md border border-gray-200 hover:text-gray-800 hover:bg-gray-200 transition-colors duration-300"
+        >
+          <i class={`ti ti-brand-${network.toLowerCase()}`} />
+          {username}
+        </a>
+      ))
+    }
+  </main>
+</Section>
