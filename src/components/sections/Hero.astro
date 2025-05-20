@@ -11,11 +11,11 @@ const { address } = location;
   <div
     class="flex flex-col md:flex-row print:flex-row justify-between items-center gap-4 md:gap-8 print:gap-8"
   >
-    <figure>
+    <figure class="cursor-pointer">
       <img
         src={image}
         alt={name}
-        class="aspect-square object-cover w-[180px] md:w-[250px] rounded-full"
+        class="block aspect-square object-cover w-[180px] md:w-[250px] rounded-full transition-normal duration-300 hover:brightness-90"
       />
     </figure>
 
@@ -30,7 +30,7 @@ const { address } = location;
       >
         <span
           id="address"
-          class="inline-flex items-center gap-1 text-sm hover:cursor-pointer"
+          class="inline-flex items-center gap-1 text-sm transition-colors duration-200 hover:text-black hover:cursor-pointer"
         >
           <i class="ti ti-world"></i>
           {address}
@@ -38,7 +38,7 @@ const { address } = location;
 
         <span
           id="birthDate"
-          class="inline-flex items-center gap-1 text-sm hover:cursor-pointer"
+          class="inline-flex items-center gap-1 text-sm transition-colors duration-200 hover:text-black hover:cursor-pointer"
         >
           <i class="ti ti-cake"></i>
           {birthDate}
