@@ -1,0 +1,112 @@
+{
+  "basics": {
+    "name": "Héctor Olivares Sánchez",
+    "label": "Desarrollador de Aplicaciones Web y Multiplataforma, Especializado en Inteligencia Artificial y Big Data",
+    "birthDate": "2000/09/18",
+    "image": "/me.webp",
+    "email": "hectorolivares35@gmail.com",
+    "url": "https://midu.dev",
+    "summary": "+2 años de experiencia. Actualmente trabajo de desarrollador web en 22GRADOS, en Gran Canaria. He trabajado en diferentes entornos: desde el modelado de datos y diseño de dashboards con Qlik Sense, pasando por la creación de soluciones de inteligencia artificial con Python, hasta la gestión y desarrollo de webs con Wordpress y PHP.",
+    "location": {
+      "address": "Islas Canarias",
+      "region": "España"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/hectorolisan/",
+        "username": "in/hectorolisan"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/hectorOliSan",
+        "username": "hectorOliSan"
+      },
+      {
+        "network": "Codepen",
+        "url": "https://codepen.io/hectorOliSan/pens/public",
+        "username": "hectorOliSan"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "22GRADOS",
+      "position": "Desarrollador Web",
+      "url": "https://22grados.com/",
+      "startDate": "2024-11-11",
+      "endDate": null,
+      "summary": "Desarrollo y gestión de páginas webs y landings utilizando Wordpress y PHP. Gestión de las webs con Bitbucket y Siteground."
+    },
+    {
+      "name": "MERCANZA",
+      "position": "Programador Júnior",
+      "url": "https://www.mercanza.es/",
+      "startDate": "2023-11-02",
+      "endDate": "2024-11-08",
+      "summary": "Modelado de datos y diseño de dashboards con Qlik Sense. Soluciones integrales de inteligencia artificial: generación de datasets y desarrollo de interfaz web para la detección de imágenes. Análisis Exploratorio de Datos. Modificación en proyecto Laravel. Desarrollo de Addons en SAP."
+    }
+  ],
+  "education": [
+    {
+      "institution": "IES El Rincón",
+      "url": "https://www3.gobiernodecanarias.org/medusa/edublog/ieselrincon/",
+      "area": "Curso de Especialización en Inteligencia Artificial y Big Data",
+      "startDate": "2022-10-03",
+      "endDate": "2023-06-16",
+      "score": "8.6"
+    },
+    {
+      "institution": "IES El Rincón",
+      "url": "https://www3.gobiernodecanarias.org/medusa/edublog/ieselrincon/",
+      "area": "Técnico Superior en Desarrollo de Aplicaciones Web",
+      "startDate": "2022-09-12",
+      "endDate": "2023-06-16",
+      "score": "8.6"
+    },
+    {
+      "institution": "IES El Rincón",
+      "url": "https://www3.gobiernodecanarias.org/medusa/edublog/ieselrincon/",
+      "area": "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma",
+      "startDate": "2020-10-26",
+      "endDate": "2022-06-17",
+      "score": "8.6"
+    }
+  ],
+  "projects": [
+    {
+      "name": "QR Scanner",
+      "isActive": true,
+      "github": true,
+      "description": "Simple QR code scanner built with Ionic",
+      "highlights": ["Angular", "Ionic"],
+      "url": "https://github.com/hectorOliSan/qr-scanner"
+    },
+    {
+      "name": "Datathon 5G",
+      "isActive": false,
+      "github": true,
+      "description": "Organizado por IAT Marino-Marítima y la SPEGC",
+      "highlights": [
+        "SITGRAN",
+        "Datathon",
+        "AI"
+      ],
+      "url": "https://github.com/hectorOliSan/Datathon_5G"
+    }
+  ],
+  "skills": [
+    { "name": "Sass" },
+    { "name": "Tailwind" },
+    { "name": "JavaScript" },
+    { "name": "TypeScript" },
+    { "name": "Astro" },
+    { "name": "Angular" },
+    { "name": "PHP" },
+    { "name": "Laravel" },
+    { "name": "Python" },
+    { "name": "MySQL" },
+    { "name": "Docker" },
+    { "name": "Git" }
+  ]
+}
