@@ -1,0 +1,20 @@
+{
+  "name": "curriculum-vitae",
+  "type": "module",
+  "version": "2025.05.20",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "0.4.1",
+    "@tailwindcss/vite": "^4.1.6",
+    "astro": "4.3.2",
+    "js-confetti": "^0.12.0",
+    "tailwindcss": "^4.1.6",
+    "typescript": "5.3.3"
+  }
+}
