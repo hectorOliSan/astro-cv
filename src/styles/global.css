@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+::selection {
+  background-color: #d1d5dc;
+}
+
 .toggle-invert {
   filter: invert(1) hue-rotate(180deg);
 
