@@ -11,13 +11,12 @@ const { address } = location;
   <div
     class="flex flex-col md:flex-row print:flex-row justify-between items-center gap-4 md:gap-8 print:gap-8"
   >
-    <figure class="cursor-pointer">
-      <img
-        src={image}
-        alt={name}
-        class="block aspect-square object-cover w-[180px] md:w-[250px] rounded-full transition-normal duration-300 hover:brightness-90"
-      />
-    </figure>
+    <img
+      src={image}
+      alt={name}
+      class="block aspect-square object-cover w-44 md:w-32 print:w-28 rounded-full"
+      loading="lazy"
+    />
 
     <div class="flex flex-col gap-2 text-center md:text-start print:text-start">
       <main>
