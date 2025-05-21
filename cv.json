@@ -6,7 +6,7 @@
     "image": "/me.webp",
     "email": "hectorolivares35@gmail.com",
     "url": "https://midu.dev",
-    "summary": "+2 años de experiencia. Actualmente trabajo de desarrollador web en 22GRADOS, en Gran Canaria. He trabajado en diferentes entornos: desde el modelado de datos y diseño de dashboards con Qlik Sense, pasando por la creación de soluciones de inteligencia artificial con Python, hasta la gestión y desarrollo de webs con Wordpress y PHP.",
+    "summary": "+2 años de experiencia. Actualmente trabajo de desarrollador web en 22GRADOS, en Gran Canaria. Me caracterizo por ser una persona responsable y organizado. He trabajado en diferentes entornos: desde el modelado de datos y diseño de dashboards con Qlik Sense, pasando por la creación de soluciones de inteligencia artificial con Python, hasta la gestión y desarrollo de webs con Wordpress y PHP.",
     "location": {
       "address": "Islas Canarias",
       "region": "España"
@@ -36,7 +36,7 @@
       "url": "https://22grados.com/",
       "startDate": "2024-11-11",
       "endDate": null,
-      "summary": "Desarrollo y gestión de páginas webs y landings utilizando Wordpress y PHP. Gestión de las webs con Bitbucket y Siteground."
+      "summary": "Desarrollo, modificación y gestión de páginas webs y landings utilizando Wordpress y PHP. Gestión de las webs con Bitbucket y Siteground."
     },
     {
       "name": "MERCANZA",
@@ -44,7 +44,7 @@
       "url": "https://www.mercanza.es/",
       "startDate": "2023-11-02",
       "endDate": "2024-11-08",
-      "summary": "Modelado de datos y diseño de dashboards con Qlik Sense. Soluciones integrales de inteligencia artificial: generación de datasets y desarrollo de interfaz web para la detección de imágenes. Análisis Exploratorio de Datos. Modificación en proyecto Laravel. Desarrollo de Addons en SAP."
+      "summary": "Modelado de datos y diseño de dashboards con Qlik Sense. Soluciones integrales de inteligencia artificial: generación de datasets, procesamiento de datos, generación de modelos y desarrollo de interfaces web. Análisis Exploratorio de Datos. Modificación en proyecto Laravel (vistas, modelos, migraciones y controladores.). Desarrollo de Addons en SAP."
     }
   ],
   "education": [
@@ -75,6 +75,14 @@
   ],
   "projects": [
     {
+      "name": "Ionic 7 course",
+      "isActive": true,
+      "github": true,
+      "description": "Ionic 7 course",
+      "highlights": ["angular", "ionic"],
+      "url": "https://github.com/hectorOliSan/ionic-7-course"
+    },
+    {
       "name": "QR Scanner",
       "isActive": true,
       "github": true,
@@ -89,6 +97,14 @@
       "description": "Datathon 5g beach challenge - beyond prediction",
       "highlights": ["javascript", "python", "fastapi"],
       "url": "https://github.com/hectorOliSan/datathon-5g"
+    },
+    {
+      "name": "Final project IABD",
+      "isActive": false,
+      "github": true,
+      "description": "Final specialization project in artificial intelligence & big data",
+      "highlights": ["javascript", "python"],
+      "url": "https://github.com/hectorOliSan/final-project-iabd"
     }
   ],
   "skills": [
@@ -98,10 +114,13 @@
     { "name": "TypeScript" },
     { "name": "Astro" },
     { "name": "Angular" },
+    { "name": "Ionic" },
     { "name": "PHP" },
     { "name": "Laravel" },
     { "name": "Python" },
+    { "name": "FastAPI" },
     { "name": "MySQL" },
+    { "name": "Qlik" },
     { "name": "Docker" },
     { "name": "Git" }
   ]
