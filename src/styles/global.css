@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+.toggle-invert {
+  filter: invert(1) hue-rotate(180deg);
+
+  img,
+  canvas {
+    filter: invert(1) hue-rotate(180deg);
+  }
+}

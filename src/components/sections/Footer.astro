@@ -1,0 +1,54 @@
+---
+import Section from "@/components/Section.astro";
+---
+
+<Section>
+  <footer class="print:hidden">
+    <button
+      id="theme-toggle"
+      class="fixed bottom-0 right-0 m-10 p-3 rounded-full bg-black text-white text-5xl hover:cursor-pointer hover:bg-gray-800"
+    >
+      <i class="ti ti-moon"></i>
+    </button>
+    <div
+      class="w-full text-center absolute p-2 bottom-0 left-1/2 -translate-x-1/2 text-xs print:hidden"
+    >
+      curriculum vitae realizado con Astro y Tailwind
+    </div>
+  </footer>
+</Section>
+
+<script>
+  const html = document.documentElement;
+  const body = document.body;
+  let flag = false;
+
+  const toggleButton = document.getElementById("theme-toggle");
+  const icon = toggleButton?.querySelector("i");
+
+  toggleButton?.addEventListener("click", () => {
+    html.classList.toggle("toggle-invert");
+
+    icon?.classList.contains("ti-moon")
+      ? icon?.classList.replace("ti-moon", "ti-sun")
+      : icon?.classList.replace("ti-sun", "ti-moon");
+  });
+
+  window.addEventListener("beforeprint", () => {
+    body.classList.replace("bg-gray-100", "bg-white");
+
+    if (html.classList.contains("toggle-invert")) {
+      html.classList.toggle("toggle-invert");
+      flag = true;
+    }
+  });
+
+  window.addEventListener("afterprint", () => {
+    body.classList.replace("bg-white", "bg-gray-100");
+
+    if (flag) {
+      html.classList.toggle("toggle-invert");
+      flag = false;
+    }
+  });
+</script>
