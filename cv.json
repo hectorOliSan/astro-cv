@@ -5,7 +5,6 @@
     "birthDate": "2000/09/18",
     "image": "/me.webp",
     "email": "hectorolivares35@gmail.com",
-    "url": "https://midu.dev",
     "summary": "+2 años de experiencia. Actualmente trabajo de desarrollador web en 22GRADOS, en Gran Canaria. Me caracterizo por ser una persona responsable y organizado. He trabajado en diferentes entornos: desde el modelado de datos y diseño de dashboards con Qlik Sense, pasando por la creación de soluciones de inteligencia artificial con Python, hasta la gestión y desarrollo de webs con Wordpress y PHP.",
     "location": {
       "address": "Islas Canarias",
@@ -19,7 +18,7 @@
       },
       {
         "network": "GitHub",
-        "url": "https://github.com/hectorOliSan",
+        "url": "https://github.com/hectorOliSan/",
         "username": "hectorOliSan"
       },
       {
@@ -80,7 +79,7 @@
       "github": true,
       "description": "Ionic 7 course",
       "highlights": ["angular", "ionic"],
-      "url": "https://github.com/hectorOliSan/ionic-7-course"
+      "url": "https://github.com/hectorOliSan/ionic-7-course/"
     },
     {
       "name": "QR Scanner",
@@ -88,7 +87,7 @@
       "github": true,
       "description": "Simple QR code scanner built with Ionic",
       "highlights": ["angular", "ionic"],
-      "url": "https://github.com/hectorOliSan/qr-scanner"
+      "url": "https://github.com/hectorOliSan/qr-scanner/"
     },
     {
       "name": "Datathon 5G",
@@ -96,7 +95,7 @@
       "github": true,
       "description": "Datathon 5g beach challenge - beyond prediction",
       "highlights": ["javascript", "python", "fastapi"],
-      "url": "https://github.com/hectorOliSan/datathon-5g"
+      "url": "https://github.com/hectorOliSan/datathon-5g/"
     },
     {
       "name": "Final project IABD",
@@ -104,7 +103,7 @@
       "github": true,
       "description": "Final specialization project in artificial intelligence & big data",
       "highlights": ["javascript", "python"],
-      "url": "https://github.com/hectorOliSan/final-project-iabd"
+      "url": "https://github.com/hectorOliSan/final-project-iabd/"
     }
   ],
   "skills": [
