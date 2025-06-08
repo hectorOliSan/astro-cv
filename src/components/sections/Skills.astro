@@ -11,7 +11,7 @@ import { skills } from "@cv";
     >
       {
         skills.map(({ name }) => (
-          <li class="flex items-center gap-1 px-2 py-1 rounded-md text-gray-800 bg-gray-200 text-sm">
+          <li class="flex items-center gap-1 px-2 py-1 rounded-md text-gray-800 bg-gray-200 border border-gray-200 text-sm">
             <i class={`ti ti-brand-${name.toLowerCase()}`} />
             <span>{name}</span>
           </li>
