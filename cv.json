@@ -48,12 +48,33 @@
   ],
   "education": [
     {
+      "institution": "Instituo Politécnico de Santarém",
+      "url": "https://www.ipsantarem.pt/",
+      "area": "Erasmus+",
+      "startDate": "2022-06-20",
+      "endDate": "2023-10-20",
+      "score": "",
+      "subjects": [
+        "Desarrollo y despliegue de sistema Arduino",
+        "Detección de movimiento con cámara",
+        "Medición de temperatura",
+        "Integración bot en Telegram"
+      ]
+    },
+    {
       "institution": "IES El Rincón",
       "url": "https://www3.gobiernodecanarias.org/medusa/edublog/ieselrincon/",
       "area": "Curso de Especialización en Inteligencia Artificial y Big Data",
       "startDate": "2022-10-03",
       "endDate": "2023-06-16",
-      "score": "8.6"
+      "score": "8.6",
+      "subjects": [
+        "Programación de inteligencia artificial",
+        "Sistemas de aprendizaje automático",
+        "Sistemas de Big Data",
+        "Big Data aplicado",
+        "Modelos de inteligencia artificial"
+      ]
     },
     {
       "institution": "IES El Rincón",
@@ -61,7 +82,13 @@
       "area": "Técnico Superior en Desarrollo de Aplicaciones Web",
       "startDate": "2022-09-12",
       "endDate": "2023-06-16",
-      "score": "9.4"
+      "score": "9.4",
+      "subjects": [
+        "Desarrollo web en entorno cliente",
+        "Diseño de interfaces web",
+        "Desarrollo web en entorno servidor",
+        "Despliegue de aplicaciones web"
+      ]
     },
     {
       "institution": "IES El Rincón",
@@ -69,13 +96,39 @@
       "area": "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma",
       "startDate": "2020-10-26",
       "endDate": "2022-06-17",
-      "score": "8.5"
+      "score": "8.5",
+      "subjects": [
+        "Bases de datos",
+        "Acceso a datos",
+        "Lenguajes de marcas",
+        "Desarrollo de interfaces",
+        "Programación",
+        "Programación de servicios y procesos",
+        "Programación multimedia y dispositivos móviles",
+        "Sistemas Informáticos"
+      ]
     }
   ],
   "projects": [
     {
-      "name": "Ionic 7 course",
+      "name": "Hornos del Rey - ¡Fibra Ya!",
       "isActive": true,
+      "github": false,
+      "description": "Website of the struggle of the neighborhood against the lack of internet service",
+      "highlights": ["astro", "tailwind", "bun"],
+      "url": "https://hornos-fibra-ya.vercel.app/"
+    },
+    {
+      "name": "Vissory",
+      "isActive": true,
+      "github": false,
+      "description": "Marketplace of creative ideas for content creators and agencies",
+      "highlights": ["astro", "tailwind"],
+      "url": "https://vissory.com/"
+    },
+    {
+      "name": "Ionic 7 course",
+      "isActive": false,
       "github": true,
       "description": "Ionic 7 course",
       "highlights": ["angular", "ionic"],
@@ -83,7 +136,7 @@
     },
     {
       "name": "QR Scanner",
-      "isActive": true,
+      "isActive": false,
       "github": true,
       "description": "Simple QR code scanner built with Ionic",
       "highlights": ["angular", "ionic"],

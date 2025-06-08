@@ -7,37 +7,50 @@ import { education } from "@cv";
 <Section title="Educación">
   <ul class="flex flex-col gap-6">
     {
-      education.map(({ institution, url, startDate, endDate, area }) => {
-        const startYear = new Date(startDate).getFullYear();
-        const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Actual";
-        const years = `${startYear} - ${endYear}`;
+      education.map(
+        ({ institution, url, startDate, endDate, area, score, subjects }) => {
+          const startYear = new Date(startDate).getFullYear();
+          const endYear =
+            endDate != null ? new Date(endDate).getFullYear() : "Actual";
+          const years = `${startYear} - ${endYear}`;
 
-        return (
-          <li>
-            <article>
-              <header class="flex flex-col md:flex-row print:flex-row justify-between text-gray-800">
-                <div class="flex flex-row">
-                  <a
-                    class="hover:underline"
-                    href={url}
-                    title={`Ir a la web de ${institution}`}
-                    target="_blank"
-                  >
-                    {institution}
-                  </a>
-                </div>
+          return (
+            <li>
+              <article>
+                <header class="flex flex-col md:flex-row print:flex-row justify-between text-gray-800">
+                  <div class="flex flex-row gap-3 items-center">
+                    <a
+                      class="hover:underline"
+                      href={url}
+                      title={`Ir a la web de ${institution}`}
+                      target="_blank"
+                    >
+                      {institution}
+                    </a>
+                    {
+                      score && (
+                        <span>•</span>
+                        <span>{score}</span>
+                      )
+                    }
+                  </div>
 
-                <time class="text-sm">{years}</time>
-              </header>
+                  <time class="text-sm">{years}</time>
+                </header>
 
-              <footer>
-                <p>{area}</p>
-              </footer>
-            </article>
-          </li>
-        );
-      })
+                <footer>
+                  <p>{area}</p>
+                  <ul class="list-disc list-inside">
+                    {subjects?.map((subject) => (
+                      <li class="text-sm">{subject}</li>
+                    ))}
+                  </ul>
+                </footer>
+              </article>
+            </li>
+          );
+        }
+      )
     }
   </ul>
 </Section>
