@@ -114,9 +114,9 @@
       "name": "Hornos del Rey - ¡Fibra Ya!",
       "isActive": true,
       "github": false,
-      "description": "Website of the struggle of the neighborhood against the lack of internet service",
+      "description": "Updated information on the Hornos del Rey neighborhood in Telde",
       "highlights": ["astro", "tailwind", "bun"],
-      "url": "https://hornos-fibra-ya.vercel.app/"
+      "url": "https://www.hornosdelrey.com/"
     },
     {
       "name": "Vissory",

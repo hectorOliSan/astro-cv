@@ -1,20 +1,33 @@
 ---
 import "@/styles/global.css";
 
-const { title } = Astro.props;
+const title = "Héctor Olivares Sánchez";
+const description =
+  "Portfolio actualizado de Héctor Olivares Sánchez. Desarrollador de Aplicaciones Web y Multiplataforma, Especializado en Inteligencia Artificial y Big Data";
+const keywords =
+  "Héctor Olivares Sánchez, hectorolisan, curriculum, cv, portfolio";
+const url = "https://hectorolisan.is-a.dev";
+const image = "/cover.png";
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang="es" dir="ltr">
   <head>
     <title>{title}</title>
 
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=7" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description" content="Curriculum Vitae" />
-    <meta name="keywords" content="curriculum, vitae, curriculum vitae, cv" />
+    <meta name="description" content={description} />
+    <meta name="keywords" content={keywords} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={image} />
+    <meta property="og:url" content={url} />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
